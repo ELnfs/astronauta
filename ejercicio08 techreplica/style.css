@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-color: #226666;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 190px;
+    margin-left: 200px;
+    z-index: 3;
+}
+.container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px 166px;
+    grid-template-rows:   300px 200px 58px;
+}
+.primera {
+    background-color: green;
+    background-image: url('images/rock.jpg');
+    background-position-x: -400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.segunda {
+    background-color: rgba(88, 222, 200, 0.224);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 2;
+}
+.cohetito {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h2 {
+    color: white;
+}
+.subrayado {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: underline;
+}
+.tercera {
+    background-color: orange;
+    background-image: url('images/background.jpg');
+    background-size: 100% 100%;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    z-index: 1;
+}
+.cuarta {
+    background-color: blue;
+    background-image: url('images/rocket.png');
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 2;
+}
+.quinta {
+    background-color: #222222;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    z-index: 2;
+    
+}
+.abajo {
+    border: solid #226666 1px;
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 50px;
+}
+.abajo2 {
+    
+}
+.menu {
+    color: #226666;
+    text-align: center;
+    margin-top: 55%;
+}
+.view {
+    color: white;
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
